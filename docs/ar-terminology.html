@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>术语定义：室外大空间AR</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6; color: #333;
+            max-width: 900px; margin: 0 auto; padding: 2rem;
+        }
+        header { 
+            border-bottom: 3px solid #333; padding-bottom: 1rem; margin-bottom: 2rem;
+        }
+        h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+        .back-link { color: #0066cc; text-decoration: none; }
+        .back-link:hover { text-decoration: underline; }
+        .section { margin-bottom: 2rem; }
+        h2 { 
+            border-left: 4px solid #0066cc; padding-left: 0.75rem; margin-bottom: 1rem;
+        }
+        .term-card { 
+            border: 1px solid #ddd; border-radius: 8px; padding: 1.2rem; margin-bottom: 1rem;
+            background: #fafafa;
+        }
+        .term-card h3 { margin-bottom: 0.5rem; color: #0066cc; }
+        .term-card .en { 
+            font-style: italic; color: #666; margin-bottom: 0.5rem;
+        }
+        .tag { 
+            display: inline-block; background: #e0e0e0; padding: 0.2rem 0.6rem;
+            border-radius: 4px; font-size: 0.85rem; margin-right: 0.5rem;
+        }
+        .tag.recommended { background: #d4edda; color: #155724; }
+        .tag.related { background: #cce5ff; color: #004085; }
+        .info-box { 
+            background: #fff3cd; border-left: 4px solid #ffc107; padding: 1rem; 
+            margin: 1rem 0; border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📱 室外大空间AR 术语定义</h1>
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </header>
+
+    <div class="section">
+        <div class="info-box">
+            <strong>💡 说明：</strong>以下是对你提出的"室外大空间AR"体验的相关学术术语和定义的梳理。这些术语在不同语境下有交叉重叠，可根据你的研究重点选择使用。
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🎯 核心推荐术语</h2>
+        
+        <div class="term-card">
+            <h3>Location-Based AR (基于位置的AR)</h3>
+            <p class="en">Also: Geo-based AR, Markerless AR</p>
+            <div class="tag recommended">最推荐</div>
+            <p>将数字内容锚定到特定地理位置的AR技术。利用GPS、Wi-Fi、蜂窝数据等定位技术确定用户位置，当用户进入特定区域或朝向兴趣点时，触发AR内容。</p>
+            <p><strong>典型应用：</strong>Pokémon GO、导航指引、景点历史重建</p>
+        </div>
+
+        <div class="term-card">
+            <h3>Spatial Augmented Reality (空间AR)</h3>
+            <p class="en">Also: Spatial AR, Geospatial AR</p>
+            <div class="tag recommended">推荐</div>
+            <p>超越单纯的位置感知，理解物理环境的几何和语义。通过空间映射创建实时3D数字表示，使AR内容能够准确放置在户外空间中，并与物理世界真实交互。</p>
+            <p><strong>典型应用：</strong>大型户外AR装置、持久性AR内容、空间锚定</p>
+        </div>
+
+        <div class="term-card">
+            <h3>Outdoor AR (室外AR)</h3>
+            <p class="en">Outdoor Augmented Reality</p>
+            <div class="tag recommended">推荐</div>
+            <p>专为开放空气环境设计的AR体验。由于缺乏室内AR的受控设置和预设标记，需要先进的定位技术（如RTK GPS、GLONASS、Galileo）和环境理解技术（如SLAM）。</p>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h2>🔗 相关术语</h2>
+
+        <div class="term-card">
+            <h3>Mobile AR (移动AR)</h3>
+            <p class="en">Mobile Augmented Reality</p>
+            <div class="tag related">相关</div>
+            <p>通过智能手机和平板电脑等移动设备访问和交互的AR。依赖设备相机、GPS和其他传感器将数字信息叠加到真实环境中。</p>
+            <p><strong>特点：</strong>高可及性、依赖设备屏幕观看、通常使用无标记AR技术</p>
+        </div>
+
+        <div class="term-card">
+            <h3>Mixed Reality (混合现实)</h3>
+            <p class="en">Mixed Reality (MR)</p>
+            <div class="tag related">相关</div>
+            <p>将物理和数字世界无缝融合的技术，允许真实和虚拟元素在共享空间中相互交互。与AR不同，MR中的数字对象可以像物理存在一样被操作和响应真实环境。</p>
+            <p><strong>特点：</strong>更高沉浸度、通常需要专业头戴设备、虚实深度交互</p>
+        </div>
+
+        <div class="term-card">
+            <h3>Embodied AR (具身AR)</h3>
+            <p class="en">Embodied Augmented Reality</p>
+            <div class="tag related">新兴概念</div>
+            <p>强调用户物理存在、运动和动作作为感知和交互数字内容核心的AR体验。用户的身体成为交互的主要模式，涉及高级追踪和空间理解。</p>
+            <p><strong>典型应用：</strong>全身追踪AR体验、基于物理旅程的AR叙事</p>
+        </div>
+
+        <div class="term-card">
+            <h3>Tangible AR (可触AR)</h3>
+            <p class="en">Tangible Augmented Reality</p>
+            <div class="tag related">相关</div>
+            <p>通过真实世界物理对象与虚拟内容交互的AR方式。通过提供可操作的实体来桥接数字和物理世界，增强沉浸感和直观交互。</p>
+            <p><strong>典型应用：</strong>文化遗产导览、实体标记触发AR内容</p>
+        </div>
+
+        <div class="term-card">
+            <h3>Large-Scale AR (大尺度AR)</h3>
+            <p class="en">Large-Scale Augmented Reality</p>
+            <div class="tag related">描述性术语</div>
+            <p>在较大地理范围内进行的AR体验，通常覆盖城市、公园或更大区域。需要精确定位技术和空间映射来确保跨越大范围的内容一致性。</p>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h2>📊 术语对比</h2>
+        <table style="width:100%; border-collapse: collapse; margin: 1rem 0;">
+            <tr style="background: #f5f5f5;">
+                <th style="border: 1px solid #ddd; padding: 0.75rem; text-align: left;">术语</th>
+                <th style="border: 1px solid #ddd; padding: 0.75rem; text-align: left;">核心技术</th>
+                <th style="border: 1px solid #ddd; padding: 0.75rem; text-align: left;">适用场景</th>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">Location-Based AR</td>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">GPS、北斗、视觉定位(VPS)</td>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">基于位置的LBS游戏、城市导览</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">Spatial AR</td>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">SLAM、3D映射、空间理解</td>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">艺术装置、持久AR内容</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">Outdoor AR</td>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">RTK GPS、GLONASS、计算机视觉</td>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">开放空间AR体验</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">Mixed Reality</td>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">高级空间映射、物体识别</td>
+                <td style="border: 1px solid #ddd; padding: 0.75rem;">沉浸式培训、历史重建</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>💡 建议</h2>
+        <div class="info-box">
+            <p>根据你的研究（<strong>在室外开放空间体验的AR作品</strong>），建议使用的术语：</p>
+            <ul>
+                <li><strong>主要术语：</strong><strong>Location-Based AR</strong> 或 <strong>Spatial AR</strong></li>
+                <li><strong>辅助描述：</strong>"Outdoor Large-Scale AR Experience"</li>
+                <li><strong>中文表述：</strong>"室外大空间AR体验" / "基于位置的室外AR"</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
